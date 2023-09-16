@@ -1,0 +1,112 @@
+/* Model.css */
+
+/* Styles for the background overlay */
+.model-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  /* Styles for the modal */
+  .model {
+    background-color: white;
+    width: 80%;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles for the modal header */
+  .model-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .model-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Styles for the modal buttons */
+  .model-btns button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #cancel {
+    background-color: #e74c3c; /* Red color */
+    color: white;
+  }
+  
+  #save {
+    background-color: #2ecc71; /* Green color */
+    color: white;
+  }
+  
+  /* Styles for text inputs */
+  .text-input {
+    margin-bottom: 20px;
+  }
+  
+  .text-input label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .text-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Styles for the group container */
+  .group-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the radio buttons */
+  #status-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .activeRadio,
+  .inActiveRadio {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .activeRadio input,
+  .inActiveRadio input {
+    margin-right: 5px;
+  }
+
+  .form-error{
+    color: rgb(197, 3, 3);
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    .model {
+      width: 90%;
+    }
+  }
+  

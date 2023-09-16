@@ -1,0 +1,138 @@
+/* Custom CSS for your component */
+.tableContainer {
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow-x: hidden;
+    width: 90%;
+    overflow: auto;
+    max-height: 90vh;
+    background: #f5f5f5; /* Light gray background */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .TopFunctions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #333;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .checkContainer input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background-color: #007bff; /* Blue checkbox background */
+    border: 2px solid #ced1d1;
+    border-radius: 4px;
+  }
+  
+  .checkContainer{
+    padding: 5px 20px;
+    
+  }
+
+
+
+  .checkContainer input[type="checkbox"]:checked {
+    background-color: #007bff;
+    border-color: #f9fafc;
+  }
+  
+  .checkContainer label {
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff; /* Dark text color */
+  }
+  
+  .searchBox {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .searchBox input[type="text"] {
+    margin: 10px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    flex-grow: 1;
+  }
+  
+  .searchBox button {
+    padding: 8px 20px;
+    color: #fff;
+    background: #007bff;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  .searchBox button:hover {
+    opacity: 0.8;
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    color: #dc3545; /* Red delete icon color */
+  }
+  
+  .edit-icon {
+    color: #28a745; /* Green edit icon color */
+  }
+  
+  /* Style the table header */
+  .tableContainer table thead {
+    background: #007bff !important;
+    color: #fff !important;
+  }
+  
+  /* Style the table rows */
+  .tableContainer table tbody tr:nth-child(odd) {
+    background-color: #f5f5f5; /* Light gray alternating row background */
+  }
+  
+  /* Style the Actions column */
+  .tableContainer table tbody td:last-child {
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .tableContainer {
+      width: 100%;
+      margin-top: 0;
+      border-radius: 0;
+      box-shadow: none;
+      max-height: none;
+    }
+  
+    .searchBox {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .searchBox input[type="text"] {
+      margin: 10px 0;
+    }
+  
+    .iconContainer {
+      font-size: 16px;
+      margin: 2px 4px;
+    }
+  }
+  

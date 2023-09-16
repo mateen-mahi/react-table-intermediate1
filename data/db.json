@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "jennifer",
+      "phone": "03041418406",
+      "email": "mateenmahihot@gmail.com",
+      "address": "Muhallah Muhammadia Ahmad Pur Sial District Jhang",
+      "group": "Group - B",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "name": "Mateen",
+      "phone": "03041418406",
+      "email": "mateenmahihot@gmail.com",
+      "address": "Muhallah Muhammadia Ahmad Pur Sial District Jhang",
+      "group": "Group - C",
+      "status": "InActive",
+      "id": 2
+    }
+  ]
+}
