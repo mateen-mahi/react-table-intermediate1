@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "name": "jennifer",
+      "name": "Jennifer Lopez",
       "phone": "03041418406",
       "email": "mateenmahihot@gmail.com",
       "address": "Muhallah Muhammadia Ahmad Pur Sial District Jhang",
@@ -10,13 +10,31 @@
       "id": 1
     },
     {
-      "name": "Mateen",
-      "phone": "03041418406",
-      "email": "mateenmahihot@gmail.com",
+      "name": "Andrew NG",
+      "phone": "345654756343",
+      "email": "mateenmahihot@gmail.con",
+      "address": "Muhallah Muhammadia Ahmad Pur Sial District Jhang",
+      "group": "Group - A",
+      "status": "Active",
+      "id": 4
+    },
+    {
+      "name": "Ariana Grande",
+      "phone": "37467364393",
+      "email": "mateenmahihot@gmail.con",
+      "address": "Muhallah Muhammadia Ahmad Pur Sial District Jhang",
+      "group": "Group - A",
+      "status": "Active",
+      "id": 6
+    },
+    {
+      "name": "Alan Walker",
+      "phone": "+116348495869",
+      "email": "alan@music.production",
       "address": "Muhallah Muhammadia Ahmad Pur Sial District Jhang",
       "group": "Group - C",
-      "status": "InActive",
-      "id": 2
+      "status": "Active",
+      "id": 7
     }
   ]
 }

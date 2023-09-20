@@ -6,4 +6,5 @@ export const signUpSchema = Yup.object({
   email: Yup.string().email().required("Please enter your email"),
   address: Yup.string().min(6).required("Please enter your Address"),
   status: Yup.string().required("please Select a Status"),
+  group: Yup.string().required("please Select a Group")
 });
